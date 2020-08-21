@@ -7,6 +7,7 @@ public class FormatSpecifiers {
 
 		System.out.printf("%s%s", "Hello, ", "John" + "\n"); //Hello, John
 		
+		System.out.printf("%s%s%n", "Hello, ", "John"); //Hello, John
 		
 		System.out.printf("%s %s", "Hello,", "John"); //Hello, John
 
