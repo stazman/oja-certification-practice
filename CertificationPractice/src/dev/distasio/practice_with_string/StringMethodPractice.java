@@ -12,6 +12,10 @@ public class StringMethodPractice {
 		
 		String b = "England";
 		
+		String[] arrOfStr = s.split("e", 2);
+		
+		String[] arrOfStr3 = s.split("e", 3); 		
+		
 		int i = 3;
 		
 		int i2 = 3;
@@ -39,6 +43,19 @@ public class StringMethodPractice {
 		
 		System.out.println(s.indexOf('n')); // 1
 		
+		System.out.println(s.lastIndexOf('t')); // 8
+		
+		System.out.println(s.length()); // 1
+		
+		System.out.println(s.replace('e', 'E'));//undErstatEd
+		
+		for (String c : arrOfStr ) {
+			System.out.println(c);
+		}
+		
+		for (String d : arrOfStr3 ) {
+			System.out.println(d);
+		}
 	}
 
 }
