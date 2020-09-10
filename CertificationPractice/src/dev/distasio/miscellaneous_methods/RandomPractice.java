@@ -18,6 +18,20 @@ public class RandomPractice {
 		
 		System.out.println(r3.nextInt());
 		
+		        
+        java.util.Random t = new java.util.Random(100);
+
+        double d = t.nextDouble();
+        
+        System.out.println(d);
+        
+        
+        java.util.Random s = new java.util.Random(100);
+        
+        double e = s.nextDouble();
+        
+        System.out.println(e);
+          
 	}
 
 }
